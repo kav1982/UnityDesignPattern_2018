@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/.idea.GameDesignPattern_U3D_Version.iml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../:\Get2022\GameDesignPattern_U3D_Version\.idea\.idea.GameDesignPattern_U3D_Version\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

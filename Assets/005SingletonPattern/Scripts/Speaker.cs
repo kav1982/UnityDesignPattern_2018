@@ -12,6 +12,7 @@ public class Speaker : MonoBehaviour
     void Start()
     {
         InvokeRepeating("Speak", 0, GapTime);
+        //InvokeRepeating: 在time（参数2）秒内调用方法methodName（参数1），然后重复每repeatRate（参数3）秒
     }
 
     void Speak()

@@ -7,8 +7,9 @@ public class Radio : MonoBehaviour
 
     public delegate void EmitHandler(Transform target);
     
-    public EmitHandler OnEmitEvent;
-    public static Radio Instance;
+    public EmitHandler OnEmitEvent; //委托
+    
+    public static Radio Instance; //static单例模式
 
     void Awake()
     {

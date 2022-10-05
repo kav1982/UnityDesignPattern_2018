@@ -21,6 +21,6 @@ public class Shooter : MonoBehaviour
     private void Shoot(Transform target)
     {
         GameObject go = Instantiate(Bullet, transform.position, Quaternion.identity);
-        go.GetComponent<Rigidbody>().velocity = (target.position - transform.position).normalized * 30f;
+        go.GetComponent<Rigidbody>().velocity = (target.position - transform.position).normalized * 30f; //Rigidbody.velocity 刚体的矢量速度
     }
 }
